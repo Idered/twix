@@ -4,7 +4,7 @@ export function twix<Props extends { className?: string }, Element>(
   component: React.ForwardRefExoticComponent<
     Props & React.RefAttributes<Element>
   >,
-  className: string | ((props: Props) => string)
+  className?: string
 ) {
   return React.forwardRef<Element, Props>((props, ref) => {
     return React.createElement(component, {
