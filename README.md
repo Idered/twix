@@ -43,8 +43,9 @@ import * as Checkbox from "@radix-ui/react-checkbox";
 
 export const Root = twix(
   Checkbox.Root,
-  "bg-white w-8 h-8 flex items-center justify-center aria-checked:border-blue-500"
+  "border border-slate-300 hover:border-slate-500 rounded w-8 h-8 flex items-center justify-center aria-checked:border-blue-500"
 );
+
 export const Indicator = twix(Checkbox.Indicator, "text-indigo-500");
 ```
 
