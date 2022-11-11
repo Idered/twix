@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-radix-ui",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Style Radix Ui components with Tailwind CSS",
   "repository": "Idered/tailwindcss-radix-ui",
   "license": "MIT",
