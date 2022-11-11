@@ -1,5 +1,7 @@
 # tailwindcss-radix-ui
 
+![](./screenshot.png)
+
 <p align="center">
 Style Radix UI components with TailwindCSS
 </p>
