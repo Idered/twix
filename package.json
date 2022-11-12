@@ -1,5 +1,5 @@
 {
-  "name": "tailwindcss-radix-ui",
+  "name": "@idered/twix",
   "version": "0.0.4",
   "description": "Style Radix Ui components with Tailwind CSS",
   "repository": "Idered/tailwindcss-radix-ui",

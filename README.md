@@ -23,7 +23,7 @@ Style Radix UI components with TailwindCSS
 ## Install
 
 ```sh
-npm i tailwindcss-radix-ui
+npm i @idered/twix
 ```
 
 To get IntelliSense working, add this to your Visual Studio Config:
@@ -40,7 +40,7 @@ To get IntelliSense working, add this to your Visual Studio Config:
 
 ```tsx
 // components/checkbox.tsx
-import { twix } from "tailwindcss-radix-ui";
+import { twix } from "@idered/twix";
 import * as Checkbox from "@radix-ui/react-checkbox";
 
 export const Root = twix(
