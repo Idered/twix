@@ -3,7 +3,7 @@ import React from "react";
 export function twix<
   T extends
     | keyof JSX.IntrinsicElements
-    | React.FunctionComponent
+    | React.FunctionComponent<Props>
     | React.ForwardRefExoticComponent<Props>,
   Element = T extends keyof React.ReactHTML
     ? React.ReactHTML[T] extends React.DetailedHTMLFactory<any, infer U>
