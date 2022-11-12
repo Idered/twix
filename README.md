@@ -30,9 +30,9 @@ To get IntelliSense working, add this to your Visual Studio Config:
 
 ```json
 "tailwindCSS.experimental.classRegex": [
-  "twix\\([\\w,.\\s]+\"([^\"]*)",
-  "twix\\([\\w,.\\s]+'([^']*)",
-  "twix\\([\\w,.\\s]+`([^`]*)"
+  "twix\\([\\s\\S]*?'([^']*)'\\s?\\)",
+  "twix\\([\\s\\S]*?\"([^\"]*)\"\\s?\\)",
+  "twix\\([\\s\\S]*?`([^`]*)`\\s?\\)"
 ]
 ```
 
