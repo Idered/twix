@@ -1,4 +1,4 @@
-# tailwindcss-radix-ui
+# Twix
 
 ![](./screenshot.png)
 
