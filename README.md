@@ -1,9 +1,9 @@
-# tailwindcss-radix-ui
+# Twix
 
 ![](./screenshot.png)
 
 <p align="center">
-Style Radix UI components with TailwindCSS
+Style React components with TailwindCSS
 </p>
 
 <br />
