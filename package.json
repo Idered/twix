@@ -1,6 +1,6 @@
 {
   "name": "@idered/twix",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Style Radix Ui components with Tailwind CSS",
   "repository": "Idered/tailwindcss-radix-ui",
   "license": "MIT",
