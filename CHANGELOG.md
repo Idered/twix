@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/Idered/tailwindcss-radix-ui/compare/v0.0.5...v0.0.6) (2022-11-18)
+
+
+### Bug Fixes
+
+* function components ([66be546](https://github.com/Idered/tailwindcss-radix-ui/commit/66be5469b8a36e38e4c8b97c449cff877e342eb0))
+
 ### [0.0.5](https://github.com/Idered/tailwindcss-radix-ui/compare/v0.0.4...v0.0.5) (2022-11-12)
 
 ### [0.0.4](https://github.com/Idered/tailwindcss-radix-ui/compare/v0.0.3...v0.0.4) (2022-11-12)
