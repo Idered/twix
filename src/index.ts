@@ -3,7 +3,7 @@ import React from "react";
 export function twix<
   T extends
     | keyof JSX.IntrinsicElements
-    | React.FunctionComponent<Props>
+    | React.FC<Props>
     | React.ForwardRefExoticComponent<Props>,
   Element = T extends keyof React.ReactHTML
     ? React.ReactHTML[T] extends React.DetailedHTMLFactory<any, infer U>
@@ -16,7 +16,11 @@ export function twix<
     : T extends React.FunctionComponent
     ? ReturnType<T>
     : never,
-  Props extends { className?: string } = T extends keyof React.ReactHTML
+  Props extends
+    | {}
+    | {
+        className?: string;
+      } = T extends keyof React.ReactHTML
     ? React.ReactHTML[T] extends React.DetailedHTMLFactory<infer U, any>
       ? U
       : never
