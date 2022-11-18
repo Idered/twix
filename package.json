@@ -22,7 +22,7 @@
   "scripts": {
     "build": "unbuild",
     "prepack": "unbuild",
-    "release": "standard-version && git push --follow-tags && pnpm publish"
+    "release": "standard-version && pnpm build && git push --follow-tags && pnpm publish"
   },
   "peerDependencies": {
     "react": "*"

@@ -16,11 +16,7 @@ export function twix<
     : T extends React.FunctionComponent
     ? ReturnType<T>
     : never,
-  Props extends
-    | {}
-    | {
-        className?: string;
-      } = T extends keyof React.ReactHTML
+  Props extends {} = T extends keyof React.ReactHTML
     ? React.ReactHTML[T] extends React.DetailedHTMLFactory<infer U, any>
       ? U
       : never
@@ -34,7 +30,9 @@ export function twix<
     return React.createElement(component, {
       ...props,
       ref,
-      className: `${className} ${props.className ?? ""}`,
+      className: `${className} ${
+        (props as { className?: string }).className ?? ""
+      }`,
     });
   });
 }
